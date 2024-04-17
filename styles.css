@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(9, 9, 65);
+    text-align: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-family: "Gloria Hallelujah", cursive;
+    color: aliceblue;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.green{
+    background-color: green;
+    color: green;
+}
+
+.red{
+    background-color: red;
+    color: red;
+}
+
+.yellow{
+    background-color: yellow;
+    color: yellow;
+}
+
+.blue{
+    background-color: blue;
+    color: blue;
+}
+
+.box{
+    border: 5px solid black;
+    border-radius: 25%;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
